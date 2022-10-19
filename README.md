@@ -17,21 +17,21 @@ Kemudian buka browser untuk melihat hasilnya.<p>
 ### Mengatur Clearfix Element
 Clearfix digunakan untuk mengatur element setelah float element. Property clear digunakan untuk mengaturnya.<p>
 Tambahkan element div lainnya seteleah div3 seperti berikut.<p>
-`<section>`
-    `<div class="div1">Div 1</div>`
-    `<div class="div2">Div 2</div>`
-    `<div class="div3">Div 3</div>`
-    `<div class="div4">Div 4</div>`
+`<section>` <p>
+    `<div class="div1">Div 1</div>` <p>
+    `<div class="div2">Div 2</div>` <p>
+    `<div class="div3">Div 3</div>` <p>
+    `<div class="div4">Div 4</div>` <p>
 `</section>` <p>
 Kemudian atur property clear pada CSS, seperti berikut.<p>
-.div4 {
-background-color: blue;
-clear: left;
-float: none;
+.div4 { <p>
+background-color: blue; <p>
+clear: left; <p>
+float: none; <p>
 } <p>
-Selanjutnya buka browser dan refresh kembali.
+Selanjutnya buka browser dan refresh kembali. <p>
 ![image](/screenshot/ss4.png) <p>
-Lakukan eksperimen terhadap penggunaan property clear dengan nilai lainnya (left, both, right), dan amati perubahan##nya.
+Lakukan eksperimen terhadap penggunaan property clear dengan nilai lainnya (left, both, right), dan amati perubahannya.
 ### Membuat Layout Sederhana
 Kita akan membuat layout web sederhana seperti gambar berikut. <p>
 ![image](/screenshot/ss25.png) <p>
@@ -62,16 +62,16 @@ Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.<p>
 Kemudian selanjutnya menambahkan element lain dalam sidebar.<p>
 ![image](/screenshot/ss16.png) <p>
 Kemudian tambahkan CSS.<p>
-![image](/screenshot/ss17.png)
+![image](/screenshot/ss17.png) <p>
 ![image](/screenshot/ss18.png)
 ### Mengatur Footer
 Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.<p>
-/* footer */
-footer {
-clear:both;
-background-color:#1d1d1d;
-padding:20px;
-color:#eee;
+/* footer */ <p>
+footer { <p>
+clear:both; <p>
+background-color:#1d1d1d; <p>
+padding:20px; <p>
+color:#eee;<p>
 } <p>
 ![image](/screenshot/ss19.png)
 ### Menambahkan Elemen lainnya pada Main Content
